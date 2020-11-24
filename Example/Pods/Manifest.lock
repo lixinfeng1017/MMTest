@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MMTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MMTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MMTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MMTest: 1f4d300b1a72ea4ab5d433bd41cb0e4687955167
+
+PODFILE CHECKSUM: db8f912b0b5a69270aa65780b974ef38c054b4ad
+
+COCOAPODS: 1.10.0
